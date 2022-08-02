@@ -27,7 +27,7 @@ cache = Cache(application.server, config={
     'CACHE_DIR': 'cache-directory'
 })
 # set negative to disable (useful for testing/benchmarking)
-CACHE_TIMEOUT = int(os.environ.get('DASH_CACHE_TIMEOUT', '60'))
+#CACHE_TIMEOUT = int(os.environ.get('DASH_CACHE_TIMEOUT', '60'))
 
 # Get auxiliary information about zones, boroughs, and their relations
 geo_filename = 'aux_data/taxi_zones-tiny.json'
