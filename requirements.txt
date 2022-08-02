@@ -107,6 +107,12 @@ typing_extensions==4.3.0
 urllib3==1.26.11
 vaex-core==4.11.1
 vaex-hdf5==0.12.3
+vaex>=4.9.1
+vaex-astro>=0.9.1
+vaex-jupyter>=0.7.0
+vaex-ml>=0.17.0
+vaex-server>=0.8.1
+vaex-viz>=0.5.1
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==2.2.1
