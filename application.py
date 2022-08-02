@@ -50,8 +50,8 @@ zone_index_to_borough_index = {int(index): borough_name_to_index[zbmapper[name]]
 
 # Open the main data
 taxi_path = 's3://vaex/taxi/yellow_taxi_2012_zones.hdf5?anon=true'
+            
 # override the path, e.g. $ export TAXI_PATH=/data/taxi/yellow_taxi_2012_zones.hdf5
-taxi_path = os.environ.get('TAXI_PATH', taxi_path)
 df_original = vaex.open(taxi_path)
 
 # Make sure the data is cached locally
